@@ -1,9 +1,9 @@
 
 const campos = [
-    { id: "email", regex: /^[^\s@]+@[^\s@]+\.[^\s@]+$/, ok: "E-mail válido!", erro: "E-mail inválido (ex: usuario@dominio.com)" },
-    { id: "cep", regex: /^\d{5}-\d{3}$/, ok: "CEP válido!", erro: "CEP inválido (use o formato 00000-000)" },
+    { id: "email", regex: /^[^\s@]+@[^\s@]+\.[^\s@]+$/, ok: "Email válido!", erro: "E-mail inválido (ex: usuario@dominio.com)" },
+    { id: "cep", regex: /^\d{5}-\d{3}$/, ok: "CEP válido!", erro: "cep inválido (use o formato 00000-000)" },
     { id: "celular", regex: /^\(\d{2}\) \d{5}-\d{4}$/, ok: "Celular válido!", erro: "Formato esperado: (00) 00000-0000" },
-    { id: "numeros", regex: /^\d+$/, ok: "Apenas números detectados!", erro: "O campo deve conter apenas números inteiros." },
+    { id: "numeros", regex: /^\d+$/, ok: "Apenas Números Detectados!", erro: "O campo deve conter apenas números inteiros." },
     { id: "nome", regex: /^[A-Za-zÀ-ÿ]+(\s[A-Za-zÀ-ÿ]+)*$/, ok: "Nome válido!", erro: "Apenas letras e espaços são permitidos." }
 ];
 
