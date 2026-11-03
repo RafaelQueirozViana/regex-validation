@@ -1,0 +1,74 @@
+ body {
+     font-family: Segoe UI, Arial, sans-serif;
+     background: #f3f4f6;
+     margin: 0;
+     padding: 30px 16px;
+ }
+
+ .card {
+     max-width: 680px;
+     margin: 0 auto;
+     background: #fff;
+     padding: 36px;
+     border-radius: 16px;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+ }
+
+ h1 {
+     text-align: center;
+     margin: 0 0 8px;
+     color: #1f2937;
+ }
+
+ p.sub {
+     text-align: center;
+     color: #4b5563;
+     margin: 0 0 24px;
+ }
+
+ .grupo {
+     margin-bottom: 20px;
+ }
+
+ label {
+     display: block;
+     font-weight: 600;
+     color: #374151;
+     margin-bottom: 8px;
+     font-size: 15px;
+ }
+
+ input {
+     width: 100%;
+     box-sizing: border-box;
+     padding: 14px 16px;
+     font-size: 17px;
+     border: 1px solid #d1d5db;
+     border-radius: 10px;
+     outline: none;
+ }
+
+ input.valido {
+     border-color: #22c55e;
+     background: #f0fdf4;
+ }
+
+ input.invalido {
+     border-color: #ef4444;
+     background: #fef2f2;
+ }
+
+ .msg {
+     font-size: 13px;
+     font-weight: 600;
+     margin-top: 6px;
+     min-height: 16px;
+ }
+
+ .msg.valido {
+     color: #16a34a;
+ }
+
+ .msg.invalido {
+     color: #dc2626;
+ }
